@@ -1,0 +1,192 @@
+10-Dec-2016 13:23:56.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.9
+10-Dec-2016 13:23:56.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2016 20:18:12 UTC
+10-Dec-2016 13:23:56.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.9.0
+10-Dec-2016 13:23:56.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2016 13:23:56.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-573.18.1.el6.x86_64
+10-Dec-2016 13:23:56.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2016 13:23:56.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_79/jre
+10-Dec-2016 13:23:56.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+10-Dec-2016 13:23:56.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2016 13:23:56.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 13:23:56.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 13:23:56.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/apache-tomcat-8.5.9/conf/logging.properties
+10-Dec-2016 13:23:56.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2016 13:23:56.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Dec-2016 13:23:56.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Dec-2016 13:23:56.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 13:23:56.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 13:23:56.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/apache-tomcat-8.5.9/temp
+10-Dec-2016 13:23:56.111 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+10-Dec-2016 13:23:56.332 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 13:23:56.368 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 13:23:56.379 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 13:23:56.381 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 13:23:56.384 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1331 ms
+10-Dec-2016 13:23:56.458 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Dec-2016 13:23:56.460 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.9
+10-Dec-2016 13:23:56.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs
+10-Dec-2016 13:23:57.373 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs has finished in 893 ms
+10-Dec-2016 13:23:57.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager
+10-Dec-2016 13:23:57.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager has finished in 119 ms
+10-Dec-2016 13:23:57.498 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples
+10-Dec-2016 13:23:58.105 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples has finished in 606 ms
+10-Dec-2016 13:23:58.107 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT
+10-Dec-2016 13:23:58.156 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT has finished in 49 ms
+10-Dec-2016 13:23:58.156 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager
+10-Dec-2016 13:23:58.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager has finished in 62 ms
+10-Dec-2016 13:23:58.226 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+10-Dec-2016 13:23:58.245 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+10-Dec-2016 13:23:58.252 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1867 ms
+10-Dec-2016 13:26:56.142 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Dec-2016 13:26:56.144 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 13:26:56.160 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 13:26:56.161 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+10-Dec-2016 13:26:56.246 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 13:26:56.249 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 13:26:56.250 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 13:26:56.251 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:40:08.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.9
+10-Dec-2016 14:40:08.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2016 20:18:12 UTC
+10-Dec-2016 14:40:08.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.9.0
+10-Dec-2016 14:40:08.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2016 14:40:08.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-573.18.1.el6.x86_64
+10-Dec-2016 14:40:08.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2016 14:40:08.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_79/jre
+10-Dec-2016 14:40:08.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+10-Dec-2016 14:40:08.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2016 14:40:08.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:40:08.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:40:08.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/apache-tomcat-8.5.9/conf/logging.properties
+10-Dec-2016 14:40:08.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2016 14:40:08.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Dec-2016 14:40:08.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Dec-2016 14:40:08.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:40:08.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:40:08.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/apache-tomcat-8.5.9/temp
+10-Dec-2016 14:40:08.323 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+10-Dec-2016 14:40:08.653 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:40:08.698 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 14:40:08.706 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:40:08.708 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 14:40:08.712 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1486 ms
+10-Dec-2016 14:40:08.798 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Dec-2016 14:40:08.801 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.9
+10-Dec-2016 14:40:08.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs
+10-Dec-2016 14:40:09.814 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs has finished in 983 ms
+10-Dec-2016 14:40:09.817 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager
+10-Dec-2016 14:40:09.933 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager has finished in 116 ms
+10-Dec-2016 14:40:09.937 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples
+10-Dec-2016 14:40:10.541 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples has finished in 604 ms
+10-Dec-2016 14:40:10.545 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT
+10-Dec-2016 14:40:10.591 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT has finished in 46 ms
+10-Dec-2016 14:40:10.593 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager
+10-Dec-2016 14:40:10.651 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager has finished in 58 ms
+10-Dec-2016 14:40:10.658 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+10-Dec-2016 14:40:10.677 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+10-Dec-2016 14:40:10.682 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1969 ms
+10-Dec-2016 14:41:32.671 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Dec-2016 14:41:32.674 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:41:32.685 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:41:32.693 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+10-Dec-2016 14:41:32.739 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:41:32.741 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:41:32.742 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:41:32.743 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:41:36.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.9
+10-Dec-2016 14:41:36.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2016 20:18:12 UTC
+10-Dec-2016 14:41:36.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.9.0
+10-Dec-2016 14:41:36.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2016 14:41:36.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-573.18.1.el6.x86_64
+10-Dec-2016 14:41:36.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2016 14:41:36.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_79/jre
+10-Dec-2016 14:41:36.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+10-Dec-2016 14:41:36.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2016 14:41:36.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:41:36.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:41:36.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/apache-tomcat-8.5.9/conf/logging.properties
+10-Dec-2016 14:41:36.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2016 14:41:36.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Dec-2016 14:41:36.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Dec-2016 14:41:36.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:41:36.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:41:36.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/apache-tomcat-8.5.9/temp
+10-Dec-2016 14:41:36.116 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+10-Dec-2016 14:41:36.345 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:41:36.389 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 14:41:36.398 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:41:36.400 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 14:41:36.404 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1294 ms
+10-Dec-2016 14:41:36.489 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Dec-2016 14:41:36.493 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.9
+10-Dec-2016 14:41:36.516 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs
+10-Dec-2016 14:41:37.447 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs has finished in 930 ms
+10-Dec-2016 14:41:37.451 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager
+10-Dec-2016 14:41:37.568 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager has finished in 117 ms
+10-Dec-2016 14:41:37.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples
+10-Dec-2016 14:41:38.169 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples has finished in 597 ms
+10-Dec-2016 14:41:38.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT
+10-Dec-2016 14:41:38.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT has finished in 47 ms
+10-Dec-2016 14:41:38.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager
+10-Dec-2016 14:41:38.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager has finished in 55 ms
+10-Dec-2016 14:41:38.285 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+10-Dec-2016 14:41:38.307 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+10-Dec-2016 14:41:38.312 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1907 ms
+10-Dec-2016 14:43:48.354 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /root/tomcat/apache-tomcat-8.5.9/webapps/Spring3HibernateApp.war
+10-Dec-2016 14:43:51.980 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2016 14:43:55.088 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /root/tomcat/apache-tomcat-8.5.9/webapps/Spring3HibernateApp.war has finished in 6,735 ms
+10-Dec-2016 14:45:36.758 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Dec-2016 14:45:36.763 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:45:36.767 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:45:36.818 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+10-Dec-2016 14:45:36.873 WARNING [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Spring3HibernateApp] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Dec-2016 14:45:36.874 WARNING [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Spring3HibernateApp] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:503)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+10-Dec-2016 14:45:36.880 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:45:36.882 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:45:36.882 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:45:36.884 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:45:42.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.9
+10-Dec-2016 14:45:42.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2016 20:18:12 UTC
+10-Dec-2016 14:45:42.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.9.0
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-573.18.1.el6.x86_64
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.7.0_79/jre
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:45:42.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:45:42.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/tomcat/apache-tomcat-8.5.9/conf/logging.properties
+10-Dec-2016 14:45:42.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Dec-2016 14:45:42.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Dec-2016 14:45:42.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Dec-2016 14:45:42.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:45:42.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/tomcat/apache-tomcat-8.5.9
+10-Dec-2016 14:45:42.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/tomcat/apache-tomcat-8.5.9/temp
+10-Dec-2016 14:45:42.951 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+10-Dec-2016 14:45:43.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Dec-2016 14:45:43.200 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 14:45:43.208 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Dec-2016 14:45:43.210 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Dec-2016 14:45:43.213 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1281 ms
+10-Dec-2016 14:45:43.296 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Dec-2016 14:45:43.296 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.9
+10-Dec-2016 14:45:43.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /root/tomcat/apache-tomcat-8.5.9/webapps/Spring3HibernateApp.war
+10-Dec-2016 14:45:48.367 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Dec-2016 14:45:51.289 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /root/tomcat/apache-tomcat-8.5.9/webapps/Spring3HibernateApp.war has finished in 7,938 ms
+10-Dec-2016 14:45:51.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs
+10-Dec-2016 14:45:51.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/docs has finished in 24 ms
+10-Dec-2016 14:45:51.318 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager
+10-Dec-2016 14:45:51.400 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/manager has finished in 82 ms
+10-Dec-2016 14:45:51.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples
+10-Dec-2016 14:45:51.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/examples has finished in 468 ms
+10-Dec-2016 14:45:51.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT
+10-Dec-2016 14:45:51.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/ROOT has finished in 41 ms
+10-Dec-2016 14:45:51.919 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager
+10-Dec-2016 14:45:51.974 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/apache-tomcat-8.5.9/webapps/host-manager has finished in 51 ms
+10-Dec-2016 14:45:51.983 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+10-Dec-2016 14:45:52.006 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+10-Dec-2016 14:45:52.016 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8802 ms
